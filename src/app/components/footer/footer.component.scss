@@ -1,0 +1,28 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .footer__logo-footer{
+        width: 12em;
+        height: 6em;
+    }
+    .footer__redes{
+        .footer__redes-facebook{
+            width: 2em;
+            height: 2em;
+            overflow: hidden;
+        }
+        .footer__redes-instagram{
+            width: 2em;
+            height: 2em;
+        }
+    }
+    .footer__enlaces{
+        display: grid;
+        list-style: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+    }
+}
