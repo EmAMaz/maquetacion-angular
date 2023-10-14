@@ -30,7 +30,12 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss"
+=======
+              "src/styles.scss",
+              "node_modules/aos/dist/aos.css"
+>>>>>>> page-example
             ],
             "scripts": []
           },
@@ -39,6 +44,7 @@
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
@@ -46,6 +52,15 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
+=======
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "150kb",
+                  "maximumError": "150kb"
+>>>>>>> page-example
                 }
               ],
               "outputHashing": "all"
@@ -93,7 +108,12 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss"
+=======
+              "src/styles.scss",
+              "node_modules/aos/dist/aos.css"
+>>>>>>> page-example
             ],
             "scripts": []
           }
